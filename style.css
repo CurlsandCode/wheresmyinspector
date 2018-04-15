@@ -1,29 +1,33 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background-image: url(images/map.jpg);
+	background: url(images/map.jpg);
 	background-repeat: no-repeat, repeat;
 	background-size: cover;
-	font-family: serif;
+	font-family: Raleway;
 }
 
 .container {
 	background-color: #fff;
 	width: 400px;
-	height: 200px;
+  height: 200px;
 	margin-top: 25px;
 	border: 2px solid white;
+	border-radius: 10px;
 	box-shadow: 4px 4px 5px #888888;
+	position: relative;
 }
 
 .update-container {
 	background-color: #fff;
+	margin: 0 auto;
 	width:50%;
   height:66.67vh;
-	margin-top: 15px;
-	margin-left: 355px;
 	border: 2px solid #fff;
+	border-radius: 10px;
 	box-shadow: 4px 4px 5px #888888;
+	margin-top: 15px;
+	position: relative;
 }
 
 header {
@@ -32,8 +36,8 @@ header {
 }
 
 img {
-	  width: 10%;
-    height: auto;
+	width: 10%;
+	height: auto;
 	margin: 0px auto;
 	display: block;
 	padding-bottom: 10px;
@@ -42,6 +46,7 @@ img {
 h1 {
 	text-align: center;
 	color: #203040;
+  padding-bottom: 5px;
 }
 
 .search-container {
@@ -54,7 +59,8 @@ h1 {
 	margin-top: 10px;
 }
 
-h2, h4 {
+h2,
+h4 {
 	padding-left: 10px;
 }
 
@@ -69,10 +75,13 @@ h3 {
 	position: relative;
 	top: 50%;
 	left: 50%
+	
 }
 
 a {
 	list-style: none;
+	margin-left: 10px;
+	color: #203040;
 }
 
 a:hover {
