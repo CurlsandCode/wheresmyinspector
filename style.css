@@ -21,8 +21,8 @@ body {
 .update-container {
 	background-color: #fff;
 	margin: 0 auto;
-	width:50%;
-  height:66.67vh;
+	width: 65%;
+  height: auto;
 	border: 2px solid #fff;
 	border-radius: 10px;
 	box-shadow: 4px 4px 5px #888888;
@@ -34,7 +34,10 @@ header {
 	background-color: #203040;
 	margin-top: 0px;
 }
-
+.wrappper{
+	margin: 0 auto;
+	width: 960px;
+}
 img {
 	width: 10%;
 	height: auto;
