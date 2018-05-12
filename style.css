@@ -51,6 +51,10 @@ h1 {
 	color: #203040;
   padding-bottom: 5px;
 }
+#inspector {
+	font-family:'Special Elite', cursive;
+	font-size: 34px;
+}
 
 .search-container {
 	width: 300px;
